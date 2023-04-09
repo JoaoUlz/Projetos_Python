@@ -1,0 +1,41 @@
+# Exercicio da aula 24 Seção 2
+
+nome = str(input('Digite seu nome: '))
+sobrenome = str(input('Digite seu sobrenome: '))
+idade = int(input('Digite sua idade: '))
+if idade >= 18:
+    maior_de_idade = 'Sim'
+else:
+    maior_de_idade = 'Não'
+nascimento = 2023 - idade
+altura = float(input('Digite sua altura: '))
+
+print()
+print('Dados Fornecidos: ')
+print('Nome: ', nome)
+print('Sobrenome: ', sobrenome)
+print('Idade: ', idade)
+print('Ano de nascimento: ', nascimento)
+print('É maior de idade? ', maior_de_idade)
+print('Altura em metros: ', altura)
+print()
+
+
+"""
+Como o professor resolveu: 
+
+nome = 'Luiz Otávio'
+sobrenome = 'Miranda'
+idade = 18
+ano_nascimento = 2022 - idade
+maior_de_idade = idade >= 18
+altura_metros = 1.80
+
+print('Nome:', nome)
+print('Sobrenome:', sobrenome)
+print('Idade:', idade)
+print('Ano de nascimento:', ano_nascimento)
+print('É maior de idade?', maior_de_idade)
+print('Altura em metros:', altura_metros)
+
+"""
