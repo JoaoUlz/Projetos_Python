@@ -1,0 +1,26 @@
+# saber o maior e menor valor
+
+primeiro_valor = input('Digite o primeiro valor: ')
+segundo_valor = input('Digite o segundo valor: ')
+
+if primeiro_valor > segundo_valor:
+    print('"Primeiro valor" é maior do que o "Segundo Valor"')
+else:
+    print('"Segundo Valor" é maior do que o "Primeiro Valor"')
+
+
+
+# Professor resolveu assim:
+primeiro_valor = input('Digite um valor: ')
+segundo_valor = input('Digite outro valor: ')
+
+if primeiro_valor >= segundo_valor:
+    print(
+        f'{primeiro_valor=} é maior ou igual '
+        f'ao que {segundo_valor=}'
+    )
+else:
+    print(
+        f'{segundo_valor=} é maior '
+        f'do que {primeiro_valor=}'
+    )
